@@ -1,0 +1,46 @@
+.videoFooter{
+    bottom: 20%;
+    position: relative;
+    margin-left: 30px;
+}
+
+.videoFooter_text h3, .videoFooter_text p{
+    padding-bottom: 20px;
+}
+
+.videoFooter_music{
+    display: flex;
+    
+}
+
+.videoFooter_icon{
+
+}
+
+.videoFooterMusic_text{
+    width: 80%;
+    overflow: hidden;
+}
+
+.videoFooterMusic_text p{
+    animation: moveTheText 8s infinite linear;
+}
+
+.videoFooter_record{
+    height: 50px;
+    bottom: 5px;
+    right: 20px;
+    position: absolute;
+    filter: invert(1);
+    animation: spinTheRecord 3s infinite linear;
+}
+
+@keyframes spinTheRecord {
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg); }
+}
+
+@keyframes moveTheText {
+    0%{ transform: translateX(100%); }
+    100%{ transform: translateX(-100%); }
+}
