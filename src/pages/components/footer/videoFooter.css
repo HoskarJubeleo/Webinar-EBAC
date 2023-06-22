@@ -13,17 +13,13 @@
     
 }
 
-.videoFooter_icon{
-
-}
-
 .videoFooterMusic_text{
     width: 80%;
     overflow: hidden;
 }
 
 .videoFooterMusic_text p{
-    animation: moveTheText 10s infinite ease-out;
+    animation: moveTheText 10s infinite linear;
 }
 
 .videoFooter_record{

@@ -5,7 +5,11 @@
 }
 
 .videoSidebar_options{
-    padding: 20px;
+    margin: 20px;
     text-align: center;
     cursor: pointer;
+}
+
+.iconeCurtido{
+    transform: scale(1.1);
 }
